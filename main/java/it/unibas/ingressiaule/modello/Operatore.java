@@ -21,10 +21,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Operatore {
 
-    public String test() {
-        String mario = "Mario Rossi Test",
-    }
-
     private List<Aula> filtraggioAulePerResponsabile(List<Aula> aule, String responsabile) {
         List<Aula> listaFiltrata = new ArrayList<>();
         for (Aula aula : aule) {
