@@ -11,7 +11,11 @@ package it.unibas.ingressiaule;
 public class Applicazione {
 
     public static void main(String[] args) {
-        System.out.println("Ciao Mondo");
+        esegui();
+    }
+
+    public void esegui() {
+        System.out.println("Ciao Mondo sono Domenico");
     }
     
 }
